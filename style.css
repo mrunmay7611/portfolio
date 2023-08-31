@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+ 
+}
+
+.text-primary {
+  font-family: 'Comic Sans MS';
+  color: #fff;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #045463;
+  background: #fff;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #cae1ff;
+  color: #85bdde;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+ 
+  background: #9ac9f5;
+  color: #3192eb;
+}
+.boxa {
+  font-size: 20px;
+  float:left;
+  width: 33.3%;
+  padding: 50px;
+  text-align:center;
+  background: #9ac9f5;
+  color: #fff;
+
+}
+.bg-primary {
+  background: #fff;
+  color: #3192eb;
+}
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+}
+
+/* Padding */
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/*Nav bar code*/
+#navbar {
+    background: rgb(9, 12, 54);
+    color: #f1f4f7;
+    overflow: auto;
+  }
+  
+  #navbar a {
+    color: #f6f7f8;
+    text-decoration: none;
+    font-size: larger; 
+    box-shadow: -3px -4px 8px #ffffff73;
+  }
+  
+  #navbar h1 {
+    font-family:  'Comic Sans MS';
+    float: left;
+    padding-top: 20px;
+   
+  }
+  
+  #navbar ul {
+    font-family:  'Comic Sans MS';
+    list-style: none;
+    float: right;
+   
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+   
+  #navbar img {
+      float: left;
+      width: 80px;
+      height:80px;
+      
+  }
+  #navbar ul li a {
+    font-family:  'Comic Sans MS';
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  /*Home page code*/
+ .section{
+   padding: 50px 10%;
+  background-color: skyblue;
+ }
+
+  .home{
+   position:absolute;
+   width: 100%;
+   min-height: 100hv;
+   display:grid;
+   grid-template-columns: 0.2fr 1fr 1fr;
+   gap: 1rem;
+   align-items: center;
+ 
+  
+  }
+  .home-img{
+    order:3;
+   
+
+  }
+  .home-img img{
+    width: 100%;
+    
+  }
+  .home-text span{
+       font-size: var(--medium-font);
+       font-weight: 500;
+   
+  }
+  .home-text h1{
+    font-size:xx-large;
+   padding-right:320px; 
+  }
+  .home-text h2{
+    font-size: 1rem;
+    font-weight: 400;
+    
+  }
+  .home-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.7rem;
+  padding-right: 100px;
+  }
+.social{
+  display:flex;
+  flex-direction: column;
+
+}
+.social a{
+    margin-bottom:1rem;
+    font-size: 22px;
+
+}
+.social a:hover
+{
+  color: var(hover);
+}
+.btn{
+  display: inline-block;
+  background: var(--main-color);
+  color: black;
+  padding:0.7rem 1.3rem;
+  border:2px solid;
+  text-decoration: none;
+  padding-top: 20px;
+  background-color:rgb(136, 136, 207);
+}
+.btn:hover{
+  background: var(--hover);
+
+}
+/*About page code*/
+.wrapper{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('./Images/computer.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+.testomonial{
+  padding: 30px 100px;
+}
+article h1{
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font: #fff;
+}
+article h1:after{
+  content: "";
+height: 5px;
+width:225px;
+background-color: #fff;
+display:block;
+margin: auto;
+}
+article img{
+  height: 225px;
+  width: 225px;
+  border:2px solid #fff;
+  border-radius: 50%;
+  margin-top: 60px;
+ align-items: center;
+}
+}
+blockquote{
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-left: 200px;
+}
+article h5{
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 30px;
+  letter-spacing: 1.5px;
+  padding-left: 400px;
+}
+article p{
+     font-size:22px ;
+     padding-left: 250px;
+}
+/* Skill page code*/
+
+h1{
+  text-align: center;
+}
+h3{
+  margin:5px;
+}
+
+/*resume page code*/
+.about-container{
+  display:grid;
+  grid-template-columns: repeat(2 ,1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+
+}
+.about-img img{
+  width: 60%;
+ 
+  height: 100%;
+
+}
+/*project page code*/
+.project-container{
+  height:65%px;
+  width: 50%;
+}
